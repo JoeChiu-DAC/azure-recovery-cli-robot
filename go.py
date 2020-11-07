@@ -27,6 +27,9 @@ try:
 except ValueError as e:
   print "Error: ", e
 
+if not opts:
+    sys.exit("No VMs found in vault")
+
 opts.append("Exit")
 
 def vm2(vm):
