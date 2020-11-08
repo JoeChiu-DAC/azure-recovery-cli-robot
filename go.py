@@ -13,7 +13,7 @@ loc = "australiaxxx"
 sub = click.prompt("Input the Azure subscription: ", default=sub)
 rg = click.prompt("Input the vault's resource group: ", default=rg)
 rsv = click.prompt("Input the backup vault: ", default=rsv)
-rsv = click.prompt("Input the location: ", default=loc)
+loc = click.prompt("Input the location: ", default=loc)
 
 opts = []
 
